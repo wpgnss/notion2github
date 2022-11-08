@@ -2,7 +2,8 @@ name: Notion2Github
 on:
   push:
     branches:
-      - 'test/**'
+      - main
+      
 jobs:
   auto-sync-from-notion-to-github:
     runs-on: ubuntu-latest
