@@ -11,9 +11,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Notion2Github
-        uses: younho9/notion2github@main
+        uses: wpgnss/notion2github@main
         with:
-          database-url: 'https://www.notion.so/acc3dfd0339e4cacb5baae8673fddfad'
+          database-url: 'https://www.notion.so/devwith/2ee24ba6d20b4e93a7df4dddb55753dc'
           docs-directory: docs/test
           # filter-prop: Category
           # filter-value: Test
